@@ -2,6 +2,12 @@ NEXUS
 
 Build Together. Grow Together. Shape a World.
 
+<p align="center">
+  <strong>A Persistent, Community-Driven Civilization Simulation for Discord</strong>
+</p>---
+
+Overview
+
 NEXUS is a persistent, community-driven civilization simulation built for Discord. It transforms an ordinary Discord server into a shared world where members can gather resources, explore new opportunities, develop settlements, contribute to community projects, and work together toward a common future.
 
 Rather than focusing on isolated commands or individual progression alone, NEXUS is designed around the idea of a living community. Every member has a role in the development of the world, and collective decisions and contributions help shape its growth.
@@ -80,14 +86,15 @@ Built for Discord
 
 NEXUS is developed with Python and "discord.py", using Discord's application command system to provide a clean, structured interaction experience.
 
-The project uses:
+Technology Stack
 
-- Python — Core application logic.
-- discord.py — Discord bot framework and slash commands.
-- SQLite — Persistent world and citizen data.
-- aiosqlite — Asynchronous database operations.
-- Docker — Containerized deployment support.
-- pytest — Automated testing foundation.
+Technology| Purpose
+Python| Core application logic
+discord.py| Discord bot framework and slash commands
+SQLite| Persistent world and citizen data
+aiosqlite| Asynchronous database operations
+Docker| Containerized deployment support
+pytest| Automated testing foundation
 
 The application is organized into a modular project structure to make its components easier to understand, maintain, test, and extend.
 
@@ -115,7 +122,7 @@ Contributions, bug reports, feature suggestions, and thoughtful improvements are
 
 If you are interested in Discord development, Python, database-driven applications, or cooperative simulation systems, NEXUS is a project you can explore and help shape.
 
-Please read the contribution guidelines before submitting changes.
+Please read the "Contributing Guidelines" (CONTRIBUTING.md) before submitting changes.
 
 Current Development Status
 
@@ -127,8 +134,10 @@ Some advanced simulation features may still be under development. The current im
 
 License
 
-NEXUS is distributed under the license included in this repository. Please review the "LICENSE" file for the applicable terms.
+NEXUS is distributed under the license included in this repository. Please review the "LICENSE" (LICENSE) file for the applicable terms.
 
 ---
 
-NEXUS — A world built by its people.
+<p align="center">
+  <strong>NEXUS — A world built by its people.</strong>
+</p>
