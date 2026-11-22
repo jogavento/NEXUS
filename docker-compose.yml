@@ -1,0 +1,12 @@
+services:
+  nexus:
+    build: .
+    container_name: nexus-discord-bot
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_PATH: /app/data/nexus.db
+    volumes:
+      - nexus_data:/app/data
+volumes:
+  nexus_data:
